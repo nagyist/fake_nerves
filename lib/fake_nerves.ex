@@ -24,6 +24,10 @@ defmodule Nerves.Firmware do
   def reboot do
     :ok
   end
+
+  def poweroff do
+    :ok
+  end
 end
 
 defmodule Gpio do

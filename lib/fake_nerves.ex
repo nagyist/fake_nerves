@@ -31,7 +31,7 @@ defmodule Nerves.Firmware do
 end
 
 defmodule Gpio do
-  def start_link(_, _ \ nil) do
+  def start_link(_, _ \\ nil) do
     :ok
   end
   def set_int(_,_) do

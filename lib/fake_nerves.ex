@@ -37,4 +37,18 @@ defmodule Gpio do
   def set_int(_,_) do
     :ok
   end
+
+  def read(_) do
+    1
+  end
+
+  def write(_,_) do
+    :ok
+  end
+end
+
+defmodule NetMan do
+  def connect(_,_) do
+    :ok
+  end
 end

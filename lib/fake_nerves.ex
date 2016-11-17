@@ -12,7 +12,7 @@ defmodule Nerves.NetworkInterface do
 end
 
 defmodule  Nerves.InterimWiFi do
-  def setup(_,blah \\ nil) do
+  def setup(_,_blah \\ nil) do
     :ok
   end
 end
@@ -43,12 +43,6 @@ defmodule Gpio do
   end
 
   def write(_,_) do
-    :ok
-  end
-end
-
-defmodule NetMan do
-  def connect(_,_) do
     :ok
   end
 end
